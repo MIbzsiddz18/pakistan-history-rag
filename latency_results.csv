@@ -1,0 +1,11 @@
+query,embedding_ms,pinecone_ms,bm25_ms,hybrid_retrieval_ms,reranking_ms,e2e_retrieval_ms
+When did Pakistan gain independence from British rule?,15.8,219.8,13.5,245.0,250.4,495.4
+Who was the first Governor-General of Pakistan?,7.6,221.5,16.5,251.3,251.2,502.5
+What was the Objective Resolution of 1949?,14.8,221.7,14.6,251.1,218.2,469.3
+What were the main causes of the Indo-Pakistani War of 1965?,9.7,226.3,24.3,256.8,226.3,483.1
+How did Bangladesh separate from Pakistan in 1971?,8.6,227.5,15.1,247.0,268.8,515.8
+What is the significance of the Indus Valley Civilization?,8.2,226.7,16.3,256.6,256.3,512.9
+Which ancient empires ruled the region that is now Pakistan?,9.7,222.2,19.1,250.4,276.2,526.6
+What reforms did Zulfikar Ali Bhutto implement?,16.6,231.1,28.1,276.5,357.3,633.8
+What was the Kargil War and when did it occur?,11.7,225.7,42.5,292.6,310.8,603.4
+Describe the role of the All India Muslim League.,13.7,222.0,36.4,316.4,247.6,564.0

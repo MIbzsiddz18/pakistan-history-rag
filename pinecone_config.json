@@ -1,0 +1,8 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "pinecone_index": "pakistan-history-rag",
+  "total_vectors": 21649,
+  "fixed_chunks": 9421,
+  "recursive_chunks": 12228
+}

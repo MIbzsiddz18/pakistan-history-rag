@@ -1,0 +1,291 @@
+{
+  "ablation_table": {
+    "Configuration": {
+      "0": "Hybrid_NoRerank",
+      "1": "Hybrid_WithRerank"
+    },
+    "Avg Faithfulness": {
+      "0": "0.77",
+      "1": "1.00"
+    },
+    "Avg Relevancy": {
+      "0": "0.49",
+      "1": "0.64"
+    },
+    "Avg Chunks Retrieved": {
+      "0": "5.0",
+      "1": "5.0"
+    }
+  },
+  "detailed_results": {
+    "Hybrid_NoRerank": [
+      {
+        "query": "When did Pakistan gain independence from British rule?",
+        "answer": "1947",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.5100909471511841,
+        "faithfulness_detail": "CLAIMS:\n1. 1947 is a significant year.\n\nVERIFICATION:\nClaim 1: SUPPORTED - The context mentions \"Pakistan became independent from the United Kingdom in 1947\" and other events related to 1947, making 1947 a significant year.\n\nSCORE: 1.00\n\nSUMMARY: The answer \"1947\" is a faithful response as it is directly supported by the context as a significant year related to Pakistan's independence.",
+        "generated_questions": [
+          "In what year did India gain independence from British rule, marking a significant turning point in the country's history?",
+          "What is the year often cited as the beginning of the Cold War, as the United States and the Soviet Union started to emerge as superpowers?",
+          "When was the partition of India and Pakistan, a pivotal event that led to the creation of two separate nations in the Indian subcontinent?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "Who was the first Governor-General of Pakistan?",
+        "answer": "Muhammad Ali Jinnah.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.4799714684486389,
+        "faithfulness_detail": "CLAIMS:\n1. Muhammad Ali Jinnah was a person.\n\nVERIFICATION:\n1. **SUPPORTED** - The context mentions \"Muhammad Ali Jinnah as the governor-general\" of the new Dominion of Pakistan.\n\nSCORE: 1.0\n\nSUMMARY: The answer \"Muhammad Ali Jinnah\" is a single factual claim that is directly supported by the context, resulting in a perfect faithfulness score.",
+        "generated_questions": [
+          "Who is the founder of Pakistan?",
+          "Which historical figure is also known as Quaid-e-Azam?",
+          "Who led the Muslim League to achieve independence from British India?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "What was the Objective Resolution of 1949?",
+        "answer": "The Objective Resolution of 1949 proclaimed that Pakistan's future constitution would be based on the ideology and democratic faith of Islam, not entirely on a European pattern.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.5255493472019831,
+        "faithfulness_detail": "CLAIMS:\n1. The Objective Resolution of 1949 proclaimed that Pakistan's future constitution would be based on the ideology and democratic faith of Islam.\n2. The Objective Resolution of 1949 proclaimed that Pakistan's future constitution would not be based entirely on a European pattern.\n\nVERIFICATION:\nClaim 1: SUPPORTED - The context states that \"the resolution proclaimed that the future constitution of Pakistan would not be modeled entirely on a European pattern, but on the ideology and democrat",
+        "generated_questions": [
+          "What was the main idea behind the Objective Resolution of 1949 in Pakistan?",
+          "How did the founders of Pakistan envision the country's constitution in relation to Islamic ideology?",
+          "What influence did European patterns have on the development of Pakistan's constitution, according to the Objective Resolution of 1949?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "What were the main causes of the Indo-Pakistani War of 1965?",
+        "answer": "I don't have enough information to answer that.",
+        "faithfulness_score": 0.0,
+        "relevancy_score": 0.05091553678115209,
+        "faithfulness_detail": "CLAIMS:\n1. I don't have enough information to answer that.\n\nVERIFICATION:\n1. **NOT SUPPORTED** - The answer does not contain any factual claim that can be verified against the context.\n\nSCORE: 0.00\n\nSUMMARY: The answer does not provide any factual claims to evaluate for faithfulness to the context.",
+        "generated_questions": [
+          "What is the average airspeed velocity of an unladen swallow, and can you provide a detailed explanation of the physics involved?",
+          "Can you tell me the exact release date of the upcoming movie that has been rumored to be in production for years?",
+          "How does the newly discovered species of plant that was just announced yesterday interact with its environment and what are its unique characteristics?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "How did Bangladesh separate from Pakistan in 1971?",
+        "answer": "The Bangladesh Liberation War led to the dissolution of East Pakistan, which seceded from West Pakistan to become Bangladesh after Pakistani forces surrendered in Dhaka on 16 December 1971.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.6980155905087789,
+        "faithfulness_detail": "CLAIMS:\n1. The Bangladesh Liberation War led to the dissolution of East Pakistan.\n2. East Pakistan seceded from West Pakistan to become Bangladesh.\n3. The secession of East Pakistan to become Bangladesh occurred after Pakistani forces surrendered in Dhaka on 16 December 1971.\n\nVERIFICATION:\nClaim 1: SUPPORTED - The context states that the Bangladesh Liberation War resulted in the dissolution of East Pakistan.\nClaim 2: SUPPORTED - The context mentions that East Pakistan seceded from West Pakistan",
+        "generated_questions": [
+          "What was the outcome of the Bangladesh Liberation War for East Pakistan?",
+          "On what date did Pakistani forces surrender in Dhaka, leading to the creation of a new country?",
+          "How did Bangladesh come into existence as an independent nation?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "What was the Kargil War and when did it occur?",
+        "answer": "The Kargil War, also known as the Kargil conflict, was fought between India and Pakistan from May to July 1999 in the Kargil district of Ladakh.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.8005903561909994,
+        "faithfulness_detail": "CLAIMS:\n1. The Kargil War, also known as the Kargil conflict, was fought between India and Pakistan.\n2. The Kargil War took place from May to July 1999.\n3. The Kargil War occurred in the Kargil district of Ladakh.\n\nVERIFICATION:\nClaim 1: SUPPORTED - The context states \"The Kargil War, also known as the Kargil conflict, was fought between India and Pakistan from May to July 1999\".\nClaim 2: SUPPORTED - The context mentions the specific time frame \"from May to July 1999\".\nClaim 3: SUPPORTED - The c",
+        "generated_questions": [
+          "Where did the Kargil War take place between India and Pakistan in 1999?",
+          "What was the time period during which the Kargil conflict occurred?",
+          "What is another name for the Kargil War that was fought between India and Pakistan?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "What is the significance of the Indus Valley Civilization in Pakistan's history?",
+        "answer": "The Indus Valley Civilization was a Bronze Age civilization that spanned much of Pakistan, making it a significant part of Pakistan's history as one of the earliest civilizations in the region.",
+        "faithfulness_score": 0.67,
+        "relevancy_score": 0.8822749853134155,
+        "faithfulness_detail": "CLAIMS:\n1. The Indus Valley Civilization was a Bronze Age civilization.\n2. The Indus Valley Civilization spanned much of Pakistan.\n3. The Indus Valley Civilization was one of the earliest civilizations in the region.\n\nVERIFICATION:\nClaim 1: SUPPORTED - The context states \"The Indus Valley Civilisation (IVC), also known as the Indus Civilisation or the Harappan Civilisation, was a Bronze Age civilisation\".\nClaim 2: SUPPORTED - The context states \"it spanned much of Pakistan; northwestern and west",
+        "generated_questions": [
+          "What is the historical significance of the Indus Valley Civilization in relation to Pakistan?",
+          "Where was the Indus Valley Civilization primarily located during the Bronze Age?",
+          "What role does the Indus Valley Civilization play in the overall history of Pakistan?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "Which ancient empires ruled the region that is now Pakistan?",
+        "answer": "The region that is now Pakistan was ruled by the Sikh Empire, the Muslim Empire (under the Umayyad general Muhammad ibn Qasim), and the Arab Islamic rule, as well as ancient Hindu monarchs and local kingdoms known as Mahajanapadas.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.8135597308476766,
+        "faithfulness_detail": "CLAIMS:\n1. The region that is now Pakistan was ruled by the Sikh Empire.\n2. The region that is now Pakistan was ruled by the Muslim Empire (under the Umayyad general Muhammad ibn Qasim).\n3. The region that is now Pakistan was ruled by the Arab Islamic rule.\n4. The region that is now Pakistan was ruled by ancient Hindu monarchs.\n5. The region that is now Pakistan was ruled by local kingdoms known as Mahajanapadas.\n\nVERIFICATION:\nClaim 1: SUPPORTED - The context mentions that \"Muslim rule in the a",
+        "generated_questions": [
+          "What historical empires and dynasties have ruled the region that is now Pakistan?",
+          "How has the region of Pakistan been influenced by different religious and cultural groups throughout history?",
+          "What were some of the ancient kingdoms and empires that existed in the area now known as Pakistan before the modern nation was established?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "What were Muhammad Ali Jinnah's key contributions to the Pakistan Movement?",
+        "answer": "I don't have enough information to answer that.",
+        "faithfulness_score": 0.0,
+        "relevancy_score": 0.0752985676129659,
+        "faithfulness_detail": "CLAIMS:\n1. I don't have enough information to answer that.\n\nVERIFICATION:\n1. **I don't have enough information to answer that**: NOT SUPPORTED - This claim is not supported by the context because it doesn't provide any factual information that can be verified.\n\nSCORE: 0.00\n\nSUMMARY: The answer lacks any factual claims that can be verified against the provided context, resulting in a faithfulness score of 0.00.",
+        "generated_questions": [
+          "What is the solution to the complex mathematical problem you were given earlier?",
+          "Can you provide a detailed analysis of the recent market trends and predict future outcomes?",
+          "How does the newly announced policy affect the overall economy and individual businesses?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "What reforms did Zulfikar Ali Bhutto implement during his premiership?",
+        "answer": "I don't have enough information to answer that.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.11022244269649188,
+        "faithfulness_detail": "CLAIMS:\nThere are no claims in the answer as it states \"I don't have enough information to answer that.\"\n\nVERIFICATION:\nThere are no claims to verify.\n\nSCORE: 1.00\n\nSUMMARY: The answer is faithful to the context as it does not make any claims that could be unsupported.",
+        "generated_questions": [
+          "What is the solution to the complex mathematical problem I've been trying to solve?",
+          "Can you provide a detailed analysis of the latest scientific research on climate change?",
+          "How does the new policy announced by the government yesterday affect my specific business situation?"
+        ],
+        "retrieved_chunks_count": 5
+      }
+    ],
+    "Hybrid_WithRerank": [
+      {
+        "query": "When did Pakistan gain independence from British rule?",
+        "answer": "August 1947",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.5798774659633636,
+        "faithfulness_detail": "CLAIMS:\nAugust 1947 is a date mentioned in the context.\n\nVERIFICATION:\nAugust 1947: SUPPORTED - The context mentions \"On 15 August 1947, the new Dominion of Pakistan\" which directly supports the claim.\n\nSCORE: 1.00\n\nSUMMARY: The answer \"August 1947\" is a faithful claim as it is directly supported by the context.",
+        "generated_questions": [
+          "When did India gain its independence from British rule, marking the end of the colonial era in the country?",
+          "In what month and year did the Indian subcontinent split into two separate nations, India and Pakistan, as a result of the partition plan?",
+          "What is the date that is often cited as the birthdate of modern India, following the country's long struggle for freedom and self-governance?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "Who was the first Governor-General of Pakistan?",
+        "answer": "Muhammad Ali Jinnah.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.4799714684486389,
+        "faithfulness_detail": "CLAIMS:\n1. Muhammad Ali Jinnah was a person mentioned in the context.\n\nVERIFICATION:\nClaim 1: SUPPORTED - The context mentions Muhammad Ali Jinnah as the governor-general of Pakistan.\n\nSCORE: 1.00\n\nSUMMARY: The answer \"Muhammad Ali Jinnah\" is a name mentioned in the context, making the single claim about his existence supported, resulting in a perfect faithfulness score.",
+        "generated_questions": [
+          "Who is the founder of Pakistan?",
+          "Which historical figure is also known as Quaid-e-Azam?",
+          "Who led the Muslim League to achieve independence from British India?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "What was the Objective Resolution of 1949?",
+        "answer": "The Objectives Resolution of 1949 proclaimed that Pakistan's future constitution would be based on the ideology and democratic faith of Islam, not entirely on a European pattern.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.49036123355229694,
+        "faithfulness_detail": "CLAIMS:\n1. The Objectives Resolution of 1949 proclaimed that Pakistan's future constitution would be based on the ideology and democratic faith of Islam.\n2. The Objectives Resolution of 1949 proclaimed that Pakistan's future constitution would not be based entirely on a European pattern.\n\nVERIFICATION:\nClaim 1: SUPPORTED - The context states that \"the resolution proclaimed that the future constitution of Pakistan would not be modeled entirely on a European pattern, but on the ideology and democr",
+        "generated_questions": [
+          "What was the main purpose of the Objectives Resolution of 1949 in Pakistan's constitutional history?",
+          "How did the founders of Pakistan envision the role of Islam in the country's future constitution?",
+          "What influence did European constitutional models have on the development of Pakistan's constitution, according to the Objectives Resolution of 1949?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "What were the main causes of the Indo-Pakistani War of 1965?",
+        "answer": "I don't have enough information to answer that.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.07678692291180293,
+        "faithfulness_detail": "CLAIMS:\n1. I don't have enough information to answer that.\n\nVERIFICATION:\n1. **I don't have enough information to answer that.**: SUPPORTED - The context does not provide a specific question to answer, so the claim is supported by the lack of information.\n\nSCORE: 1.00\n\nSUMMARY: The answer is faithful to the context as it correctly states that there is not enough information to provide an answer.",
+        "generated_questions": [
+          "What is the solution to the complex mathematical problem I've been trying to solve?",
+          "Can you provide a detailed analysis of the latest scientific research on climate change?",
+          "How does the new policy announced by the government yesterday affect my specific business situation?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "How did Bangladesh separate from Pakistan in 1971?",
+        "answer": "The Bangladesh Liberation War led to the dissolution of East Pakistan, which seceded from West Pakistan to become present-day Bangladesh, after Sheikh Mujibur Rahman declared independence on 26 March 1971, following a violent crackdown by the Pakistan Army.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.7023966511090597,
+        "faithfulness_detail": "CLAIMS:\n1. The Bangladesh Liberation War led to the dissolution of East Pakistan\n2. East Pakistan seceded from West Pakistan to become present-day Bangladesh\n3. Sheikh Mujibur Rahman declared independence on 26 March 1971\n4. The declaration of independence was after a violent crackdown by the Pakistan Army\n\nVERIFICATION:\nClaim 1: SUPPORTED - The context states \"the Bangladesh Liberation War resulted in the dissolution of East Pakistan\"\nClaim 2: SUPPORTED - The context states \"which seceded from ",
+        "generated_questions": [
+          "What event led to the creation of Bangladesh as an independent country?",
+          "Who declared independence for Bangladesh and on what date did this occur?",
+          "What was the outcome for East Pakistan after the Bangladesh Liberation War?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "What was the Kargil War and when did it occur?",
+        "answer": "The Kargil War was a conflict between India and Pakistan, fought from May to July 1999 in the Kargil district of Ladakh.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.821617583433787,
+        "faithfulness_detail": "CLAIMS:\n1. The Kargil War was a conflict between India and Pakistan\n2. The Kargil War was fought from May to July 1999\n3. The Kargil War was fought in the Kargil district of Ladakh\n\nVERIFICATION:\nClaim 1: SUPPORTED - The context states that the Kargil War was fought between India and Pakistan.\nClaim 2: SUPPORTED - The context mentions that the war took place from May to July 1999.\nClaim 3: SUPPORTED - The context specifies that the war occurred in the Kargil district of Ladakh.\n\nSCORE: 1.00\n\nSUM",
+        "generated_questions": [
+          "Where did the Kargil War take place and when did it occur?",
+          "What was the nature of the conflict that happened in the Kargil district of Ladakh?",
+          "Which two countries were involved in the military conflict known as the Kargil War?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "What is the significance of the Indus Valley Civilization in Pakistan's history?",
+        "answer": "The Indus Valley Civilization is significant in Pakistan's history as one of the earliest civilizations, flourishing in the region from 3300 BCE to 1300 BCE, and contributing to the country's cultural and urban development, with evidence of trade, urban planning, and sophisticated water supply systems.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.8712021907170614,
+        "faithfulness_detail": "CLAIMS:\n1. The Indus Valley Civilization is significant in Pakistan's history as one of the earliest civilizations.\n2. The Indus Valley Civilization flourished in the region from 3300 BCE to 1300 BCE.\n3. The Indus Valley Civilization contributed to the country's cultural and urban development.\n4. There is evidence of trade in the Indus Valley Civilization.\n5. There is evidence of urban planning in the Indus Valley Civilization.\n6. There is evidence of sophisticated water supply systems in the In",
+        "generated_questions": [
+          "What is the historical significance of the Indus Valley Civilization in Pakistan's development?",
+          "How did the Indus Valley Civilization contribute to urban planning and development in the region?",
+          "What are some notable achievements of the Indus Valley Civilization that still have an impact on Pakistan today?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "Which ancient empires ruled the region that is now Pakistan?",
+        "answer": "The ancient empires that ruled the region now known as Pakistan include the Achaemenid Empire, Seleucid Empire, Mauryan Empire, and the empires of the P\u0101ratar\u0101jas, Indo-Greeks, Kushans, and Guptas.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.8839444716771444,
+        "faithfulness_detail": "CLAIMS:\n1. The Achaemenid Empire ruled the region now known as Pakistan.\n2. The Seleucid Empire ruled the region now known as Pakistan.\n3. The Mauryan Empire ruled the region now known as Pakistan.\n4. The empires of the P\u0101ratar\u0101jas ruled the region now known as Pakistan.\n5. The Indo-Greeks ruled the region now known as Pakistan.\n6. The Kushans ruled the region now known as Pakistan.\n7. The Guptas ruled the region now known as Pakistan.\n\nVERIFICATION:\nClaim 1: SUPPORTED - The context mentions tha",
+        "generated_questions": [
+          "What ancient empires once controlled the territory that is now modern-day Pakistan?",
+          "Which historical empires had a presence in the region that includes present-day Pakistan?",
+          "What were some of the major empires that rose and fell in the area now known as Pakistan throughout history?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "What were Muhammad Ali Jinnah's key contributions to the Pakistan Movement?",
+        "answer": "Muhammad Ali Jinnah was a key leader of the Pakistan Movement, and his contributions included promoting the cause of Pakistan among Muslims of South Asia and serving as the leader of the All-India Muslim League from 1913 until Pakistan's inception in 1947.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.7465781569480896,
+        "faithfulness_detail": "CLAIMS:\n1. Muhammad Ali Jinnah was a key leader of the Pakistan Movement\n2. His contributions included promoting the cause of Pakistan among Muslims of South Asia\n3. He served as the leader of the All-India Muslim League from 1913 until Pakistan's inception in 1947\n\nVERIFICATION:\nClaim 1: SUPPORTED - The context states that Muhammad Ali Jinnah became a key leader of the Pakistan Movement.\nClaim 2: SUPPORTED - The context mentions that the cause of \"Pakistan\" became widely popular among the Musli",
+        "generated_questions": [
+          "Who was the main leader behind the creation of Pakistan and what role did he play in the Pakistan Movement?",
+          "What were Muhammad Ali Jinnah's key contributions to the Pakistan Movement and the All-India Muslim League?",
+          "Who led the All-India Muslim League during its most pivotal years, from 1913 until the establishment of Pakistan in 1947?"
+        ],
+        "retrieved_chunks_count": 5
+      },
+      {
+        "query": "What reforms did Zulfikar Ali Bhutto implement during his premiership?",
+        "answer": "Zulfikar Ali Bhutto implemented land reforms in 1972 and 1977, and introduced a socialist system, including nationalisation of industries and banks, as part of his extensive reforms at every level of governance. He also introduced the 1973 constitution as part of his vision to lead Pakistan toward parliamentary governance.",
+        "faithfulness_score": 1.0,
+        "relevancy_score": 0.7448548873265585,
+        "faithfulness_detail": "CLAIMS:\n1. Zulfikar Ali Bhutto implemented land reforms in 1972 and 1977\n2. He introduced a socialist system\n3. The socialist system included nationalisation of industries and banks\n4. He introduced the 1973 constitution as part of his vision to lead Pakistan toward parliamentary governance\n\nVERIFICATION:\nClaim 1: SUPPORTED - The context mentions \"Zulfikar Ali Bhutto's land reforms of 1972 and 1977\".\nClaim 2: SUPPORTED - The context states \"Capital and Western reforms initiated and built in 1947",
+        "generated_questions": [
+          "What significant economic and political reforms did Zulfikar Ali Bhutto introduce during his tenure as the leader of Pakistan?",
+          "How did Zulfikar Ali Bhutto's policies aim to transform the governance structure of Pakistan?",
+          "What were some of the key legislative and systemic changes implemented by Zulfikar Ali Bhutto in the early 1970s?"
+        ],
+        "retrieved_chunks_count": 5
+      }
+    ]
+  },
+  "example_queries": [
+    "When did Pakistan gain independence from British rule?",
+    "Who was the first Governor-General of Pakistan?",
+    "What was the Objective Resolution of 1949?"
+  ]
+}

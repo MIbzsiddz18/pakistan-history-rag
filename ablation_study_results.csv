@@ -1,0 +1,4 @@
+Configuration,Avg Faithfulness,Avg Relevancy,Avg Chunks Retrieved
+Semantic_Only,0.9,0.61,5.0
+Hybrid_NoRerank,0.77,0.49,5.0
+Hybrid_WithRerank,1.0,0.64,5.0
